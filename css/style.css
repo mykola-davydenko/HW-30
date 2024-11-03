@@ -1,8 +1,8 @@
 .box {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    animation: go-box 4s infinite;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    animation: go-box 6s infinite;
 }
 
 @keyframes go-box {
