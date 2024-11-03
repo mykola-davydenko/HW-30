@@ -1,0 +1,41 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: go-box 4s infinite;
+}
+
+@keyframes go-box {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: rgb(58, 3, 3);
+    }
+
+    25% {
+        top: 100vh;
+        left: 0;
+        background-color: rgb(57, 57, 188);
+        transform: translateY(300px);
+    }
+
+    50% {
+        top: 100vh;
+        left: 100vw;
+        background-color: rgb(55, 207, 55);
+        transform: translate(400px, 300px);
+    }
+
+    75% {
+        top: 0;
+        left: 100vw;
+        background-color: rgb(208, 208, 15);
+        transform: translate(400px, 0);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: rgb(208, 24, 24);
+    }
+}
